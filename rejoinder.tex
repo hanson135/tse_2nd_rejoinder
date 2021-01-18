@@ -28,7 +28,7 @@
 \newcommand{\myEmail}{}
 \newcommand{\myTitle}{Response to Reviewers: \\Comparing Methods for Large-Scale Agile Software Development: A Systematic Literature Review}
 \newcommand{\myShortTitle}{Response to Reviewers}
-\newcommand{\myJournal}{Ref. No. TSE-2020-03-0124 }
+\newcommand{\myJournal}{Ref. No. TSE-2020-03-0124.R1 }
 \newcommand{\myDept}{{$^{\displaystyle a}$Lero, NUI Galway, Ireland} \\%\\ \url{http://www.uco.es/ayrna/}}\\
 {$^{\displaystyle b}$Free University of Bozen-Bolzano, Italy}
 %{$^{\displaystyle c}$Faculty of Information Technology, P.O. Box 35, FI-40014, University of Jyv\"{a}skyl\"{a}, Finland }
@@ -71,354 +71,108 @@ urlcolor=black!70!green           % color of external links
 \clearpage
 
 \section{Associate Editor}
-\rcomment{The paper looks relevant to TSE and the general direction and approach to SLR was praised, our editorial board and expert reviewers determined that the paper seems to have different important weaknesses to be seriously considered for publication. Among others, primary concerns expressed were:
+\rcomment{The paper looks relevant to TSE, and so far, it seems to provide a valuable contribution and should be published, given that the comments provided here are appropriately addressed. Our editorial board and expert reviewers determined that the paper seems to have different essential weaknesses to be seriously considered for publication. Among others, the primary concerns expressed were:
 \begin{itemize}
-	\item lack of clear terminology
-	\item lack of use of synonymous for the search 
-	\item problems in the definition of research questions
-	\item poor organisation of the manuscript: specially lack of implications for practice and subsection dedicated to future work
-	\item issues in the introduction
-	\item important references missing
-	\item readability issues
+	\item Mapping of challenges/SF to those in previous work
+	\item Feedback on the authors' approach to the improvement suggestions and recommendations w.r.t. the original submission. Among others, the authors should take into account:
+	\begin{itemize}
+		\item Exclusion of work that is potentially relevant to this literature review revision of the factor related to failure
+		\item Thorough feedback related to the new text added, which has been presented with accurate detail
+	\end{itemize}
+	\item Readability of the paper, in general
 \end{itemize}
 }
 \textbf{Response:}
-We thank you for these comments. In the current version, we have addressed the concerns as follows: %(\textcolor{red}{we need to address all the points above, point by point)}:
+We thank you for these comments. In the current version, we have addressed the concerns as follows: 
 \begin{itemize}
-	\item \textit{lack of clear terminology}: Yes we agree with all reviewer comments where they look for terminology clarification. The first and most impactful was the use of the term ``contemporary large-scale methods'' was not just unclear but was too broad and caused confusion in places. We have now tightened the focus of the paper to focus on large scale agile development methods only, as suggested by the reviewer team, and the use of the term `contemporary' has been removed throughout the entire paper. There are many terms where the review team looked for a clear definition or explanation. We have addressed all and referred to them in this response document at each point where mentioned by a reviewer.
-	\item \textit{lack of use of synonymous for the search}: We have revisited our search process and included the suggested synonymous terms. These are reported in Section 3. The current version is now built on 191 primary studies on large-scale agile software development. All of the findings and analysis sections were then re-analysed and updated to reflect the new additions.
-	\item \textit{problems in the definition of research questions}: We have better explained the research questions in the revised Section 1.1, with improved wording, to make them as tighter and clearer.
-	\item \textit{poor organisation of the manuscript: specially lack of implications for practice and subsection dedicated to future work}: We have expanded Section 6 to discuss the implication of our research to research and practice. We have also expanded Section 7 to discuss the future work.
-	\item \textit{issues in the introduction}: We have expanded Section 1 into three subsections to improve the definition of our research questions, the scope, and discuss/clarify the terminology we used in it (Section 1.1). In Section 1.2. we have included the key takeaways for both practitioners and research.
-	\item \textit{important references missing}: We have added most of the references suggested by reviewers. All made sense. The only suggested references we did not include were ones that certainly made sense when suggested by reviewers, but were no longer relevant once we had tightened the focus of the study (from contemporary large-scale to agile large scale).
-	\item \textit{readability issues}: Based on the comments from the reviewer team, we have improved each section of the paper. 
-\end{itemize}
-
-\rcomment{It was also required to further:
-\begin{itemize}
-	\item discuss the differences between the findings of experience reports and empirical evaluations
-	\item discuss the differences between the findings of theoretical work [15, 20] and the findings of the paper.
-\end{itemize}	
-}
-\textbf{Response:} Thanks for these suggestions, which helped us further improve the Discussion section. Regarding the differences between the findings of experience reports and empirical research, throughout Sections 6.1 to 6.4, we have highlight them wherever applicable. We also compared our findings to reference [15,20] (which is [7, 43] in the new version) in Section 6.2 and 6.4, as follows:
-\begin{itemize}
-	\item (Section 6.2) ``The study by Alqudah \& Razali [43] compared these methods by team size, training and certificate on, method and practices adopted, technical practices required and organisation type. And the comparison was based on the introduction or training materials of these methods. In contrast, our comparison of the methods focuses on the primary studies that investigated different method levels.''
-	\item (Section 6.4) ``As discussed in Section 2, we found two re- views in commercial large-scale frameworks [7], [43]. The study by Kalenda et al. [7] reported the challenges and success factors of SAFe and LeSS in an aggregated manner. Thus it is impossible to distinguish which challenges and success factors are associated with each method. It may be the case that the granularity level of the challenges and success factors is different with us. For example, resistance to change (SC1) seems to have a linkage with all challenges in the Change Management Challenges category in our study. However, only bridging agile culture and mindset at scale are reported to have association with SAFe and LeSS, while change resistance is with SAFe only.''
+	\item \textit{Mapping of challenges/SF:}
+	\item \textit{Feedback on the suggestion and recommendation:} We have improved all the texts pointed by the reviewer team. We hope now it has been clearer and more accurate.
+	\item \textit{Readability of the paper:} Based on the comments from the reviewer team, we have improvedeach section of the paper. The paper have been also proofread by an English native speaker.
 \end{itemize}
 
 \clearpage
 
 \section{Reviewer 1}
-\rcomment{One important point that requires either clarification, reformulation, or toning down is the one related to the claim of the paper: first SLR of existing empirical evidence. One of the strong points of the paper is the amount of empirical evidence that is processed. However, the claim, in its current form, does not seem fair to previous works. The previous survey [6] also addressed existing empirical evidence at their time of writing. It is very true that by that time (2013) there were only 6 works, and that by 2019 there are 116 works. Nevertheless, the SLR of [6] also addressed existing empirical evidence (at its time of writing). \\
+\rcomment{The only response that I find a bit shallow is the one of Comment 3 (mapping the challenges/SF to the ones of previous works). I understand that the work addresses the application of specific large-scale agile methods whereas Dikert et al. [6] address large-scale agile transformations. Nevertheless, I think that there is potential to improve the paper. In Dikert et al. [6], specific methods (e.g., SAFe and LeSS) are only mentioned in the future research agenda. Dikert et al.[6] report challenges/SF without using specific methods. It would be beneficial to explicitly indicate which challenges/SF seem to be tackled by using specific methods, which ones remain, and which ones arise. For instance, (C-IC) Inter-team Coordination (from the paper) and Coordination challenges in multi-team environment (from Dikert et al. [6]) are related. It seems that despite of using specific large-scale agile methods that challenge remains. \\
 
-Please, do not get me wrong. I think that the amount of new empirical evidence vouches for a new SLR, as is the case of the paper. But I also think that it is important to properly acknowledge previous works.}
+The above would be helpful to understand the pros and cos of using specific large-scale methods in comparison to non large-scale methods.}
 \textbf{Response:}
-We thank you for the comment. We agree with the reviewer that our study is not the first SLR of existing empirical evidence. We have revised the Introduction (Section 1.2) and the Related Work (Section 2) as well as the discussion section (Section 6.3 and Section 6.4) to better distinguish our work from the previous SLRs. We also removed the claim that our SLR is the first one of existing empirical evidence. Our review process reveals that several literature reviews (see Section 2) have been conducted in the area of large-scale agile development. However, we do show in all of the above sections what it is that our study adds above and beyond those that already exist.
-
-%We thank you for the comment. We agree with the reviewer that our study is not the first SLR of existing empirical evidence. We have revised Related Work (Section 2) and Discussion (Section 6.3 and Section 6.4) to better distinguish our work from the previous SLRs. We also removed the claim that our SLR is the first one of existing empirical evidence. Our review process reveals that several literature reviews (see Section 2) have been conducted in the area of large-scale agile development. However, our study is different than these by collecting, analysing, and examining the findings associated with each large-scale agile method. For example, while other studies e.g. Dikert et al. (2016) identified the challenges and success factors of large-scale agile method in an aggregated manner, we associate them with each large-scale method reported in the literature.
-
-\rcomment{I acknowledge that negative real-world experience is hard to come by. This is discussed as a Threat to Validity in the paper: ``Publication bias occurs when positive research outcomes are more likely to get published than negative ones.'' What I do not agree with is the severity degree. The paper classifies it as moderate. However, I think that when it comes to RQ3 (challenges) the severity is high. Actually, it is that high that neither the paper (nor previous SLRs), have a RQ5 about Failure factors. Unfortunately, that type of information is really hard to find in public repositories.}
-\textbf{Response:}
-We thank you for the comment. We agree with the reviewer that the severity of publication bias for RQ3 is high. To address this point, we inserted the following text in Section 3.5: \\
-``Publication bias occurs when positive research outcomes are more likely to get published than negative ones [47], due to the fact that the creators of such methods have a vested interest in the reporting of the method, and organisations studied may wish to avoid or at least reduce the emphasis on negative aspects of the case. In this study, we regard this threat as high. Review papers such as this are always susceptible to such bias. However, to mitigate this as much as possible we conducted a quality screening check, we distinguished between rigorous empirical research and experience reports, and we decided not to include grey literature, e.g. work-in-progress, technical reports, blogs, and unpublished or not-peer review articles.''
-
-\rcomment{One important point that does not seem to add up is the quantity of challenges and success factor (SF). The previous SLR [6] identifies 40+ challenges, and 39 SF. Whereas the paper identifies 35 challenges and 29 SF. Furthermore 11/35 challenges and 14/29 SF are tagged as ``newly identified in our study''. What happens with the missing challenges and SF? Are they deprecated?
-}
-\textbf{Response:}
-We thank you for the comment. It led us to reflect on to which extent the results of previous SLRs and ours are comparable. As we clarified in the response to Comment 1, our study focused specifically on each of the  specific large-scale agile methods, whereas the previous SLRs focused on those related to agile transformation process. Different foci yielded different, even though overlapping, challenges and success factors. Therefore, comparing by numbers is misleading. As an example, in other SLRs they included papers that did not meet the criteria of a large scale method ($>$ 50 developers and $>$6 teams). This explains some of the difference. Also, while others identified a challenge with a general agile transformation, there was no evidence in some of those papers that the challenge or success factor actually affected environments where a specific agile method was being used. We revised Sections 6.3 and 6.4 completely, to make more meaningful contrast and comparison between our findings and those of previous work.
-%We thank you for the comment. It led us to reflect on to which extent the results of previous SLRs and ours are comparable. As we clarified in the response to Comment 1, our study focused on the challenges and success factors associated to specific large-scale methods, whereas the previous SLRs focused on those related to agile transformation process. Different foci yielded different, even though overlapping, challenges and success factors. Therefore, comparing by numbers was misleading. We revised Sections 6.3 and 6.4 completely, to make more meaningful contrast and comparison between our findings and those of previous work.
-
-%only taking into consideration challenges and sf related to the methods
-%categorise slightly higher level, different coding procedure
-
-\rcomment{Please, consider adding codes to challenges and SF to help readers and future SLRs.
-}
-\textbf{Response:}
-We thank you for the suggestion. We have added codes to each challenge (Table 9) and success factor (Table 10), in the format of C-XX-n, SF-XX-n, where XX is the acronym of a category, and n is the number.
-
-\rcomment{The paper highlights that primary studies cover both Software Engineering and Information Systems. That means that the paper has a higher number of primary studies. However, some findings may belong exclusively to one community. Please, elaborate the differences between the two communities in terms of findings.}
-\textbf{Response:}
-We thank you for the comment. We have updated table 4, 6, 7, 8, and 9 to allow readers to distinguish SE from IS papers. Also then, at the beginning of Section 6, we added a passage to discuss this point, please see the highlighted text.
-%We thank you for the comment. In the beginning of Section 6, we added a passage to discuss this point, please see the highlighted text. %In terms of findings from SE and IS communities, our SLR do not find any significant differences as they overlap and complement each other. Previous studies (Glass et al 2004, Petkov et al 2010) show that the topics covered by SE and IS are overlapping in the area of system/software concepts, e.g. management of large-scale development project, human factors, organisational issues and economic aspects of software development and deployment (Vliet, 2007). We have seen that some researchers published their work in both SE or IS venues. For example, Moe and his colleagues published their work in both International Symposium on Empirical Software Engineering and Measurement (PS183) and Hawaii International Conference on System Sciences (PS184).
-
-\rcomment{I agree with your rationale for the usefulness of the paper for practitioners. Nevertheless, I think the usefulness for the research community is not completely developed.}
-\textbf{Response:}
-We thank you for the comment. We have now inserted a new dedicated section 6.5 entitled ``Implications for Current and Future Research''. 
-%We thank you for the comment. We have expanded Sections 6.1 to 6.4 to discuss the implication of our study to research in a more comprehensive and systematic manner. In addition, we have also summarised these clearly in the conclusions (Section 7), as well as also tightening the practitioner implications in that section.
-
-\rcomment{Please, extensively discuss the differences between the findings of experience reports and empirical evaluations.}
-\textbf{Response:}
-We thank you for the comment. In the current version. In Table 4, 5, 7, 8, and 9, we have distinguished experience reports from empirical research with the asterisk sign (*). Correspondingly, we have added text in Sections 5.1 (as highlighted) to describe this distinction, and discussed its implication throughout Sections 6.1 to 6.4 (in highlighted text). Also, we have mentioned this distinction as an area for future research in Section 6.5s:\\
-``This is particularly true where experience reports may have surfaced interesting, but as yet unvalidated findings. We encourage researchers to examine the findings of the experience reports (see the papers marked with an asterisk in Tables 4, 5, 6, 7 8, and 9).''
-
-%We thank you for the comment. In the current version, in Table 4, 5, 7, 8, and 9, we have distinguished experience reports from empirical research with the asterisk sign (*). Correspondingly, we have added text in Sections 5.1 (as highlighted) to describe this distinction, and discussed its implication throughout Sections 6.1 to 6.4 (in highlighted text).
-
-%As shown in Table 5, majority of primary studies on customised large-scale framework was in the form of experience report and published in Agile Conference which is a practitioners-oriented conference. At least one of the authors (23 out of 65 articles) is part of the case organisation. No customised framework has been used or studied in organisations other than the developing one.
-
-%Table 7 shows that six primary studies offer new emerging principles (PS139, PS163), practices (PS148, PS11, PS139) and metrics (PS14). However only two of them were empirical research (PS11, PS163). It may be the case that empirical research are stricter and rigid in evaluating the case findings than experience report.
-
-%As shown in Table 9 and 10, majority of the challenges and success factors in associated with commercial large- scale framework such as SAFe, LeSS and Spotify Model are identified and reported by empirical research. This indicates that while these methods are originally driven by practitioners, they have been validated by research community. We have also seen that majority challenges and success factors of scaled method are evaluated in empirical research than experience report. This is not the case for Scrum-at-Scale and DAD. We identified three studies in these methods but two of them are experience reports. While the timeliness and importance of these methods to practitioners is evidenced, the research is still lagging behind.
-
-\rcomment{In addition, extensively discuss the differences between the findings of theoretical works [15, 20] and the findings of the paper.}
-\textbf{Response:}
-We thank you for the comment. In the current version, the references [15,20] are now [7,44]. We added text in Sections in 6.3 and 6.4 to compare our findings related to challenges and success factors with Kalenda et al [7] (see highlighted text). In Section 6.2 and 6.4 (highlighted text), we compared our findings on RQ2 with the study of Alqudah \& Razali [43], as follows:
-\begin{itemize}
-	\item (Section 6.2) ``The study by Alqudah \& Razali [43] compared these methods by team size, training and certificate on, method and practices adopted, technical practices required and organisation type. And the comparison was based on the introduction or training materials of these methods. In contrast, our comparison of the methods focuses on the primary studies that investigated different method levels.''
-	\item (Section 6.4) ``As discussed in Section 2, we found two re- views in commercial large-scale frameworks [7], [43]. The study by Kalenda et al. [7] reported the challenges and success factors of SAFe and LeSS in an aggregated manner. Thus it is impossible to distinguish which challenges and success factors are associated with each method. It may be the case that the granularity level of the challenges and success factors is different with us. For example, resistance to change (SC1) seems to have a linkage with all challenges in the Change Management Challenges category in our study. However, only bridging agile culture and mindset at scale are reported to have association with SAFe and LeSS, while change resistance is with SAFe only.''
-\end{itemize}
-
-
- %of SAFe and LeSS in an aggregated manner. Thus it is impossible to distinguish which challenges and success factors are associated with each method. It may be the case that the granularity level of the challenges and success factors is different with us. For example, resistance to change (SC1) seems to have a linkage with all challenges in the Change Management Challenges category in our study. However, only bridging agile culture and mindset at scale are reported to have association with SAFe and LeSS, while change resistance is with SAFe only. The study by Alqudah \& Razali compared the methods by team size, training and certificate on, method and practices adopted, technical practices required and organisation type. The study did not report the challenges or success factors of each method.
-
-\rcomment{First of all, compare the formulation of RQ2 (page 2) and the first paragraph of section 5.2. I do not think they are completely aligned. }
-\textbf{Response:}
-We thank you for the comment. We have improved and aligned the first paragraph of Section 5.2.1 with RQ2, as follows: \\
-``The objective of RQ2 is to understand which levels of use of the large-scale agile frameworks (listed in the first group in Table 4) were studied empirically. As we described in Section 3.4, we searched for the newest main sources of SAFe, LeSS, Scrum-at-Scale, DAD and Spotify model, in order to identify the principles, practices, tools and metrics mentioned explicitly in these sources. Appendix 6 lists the principles, practices, tools and metrics of each framework and the emergent principles, practices, tools and metrics from primary studies. Table 7 lists the primary studies that investigated these methods at various levels of abstraction.''
-
-\rcomment{Second, the way I understand section 5.2: Principles, practices, tools and practices are extracted from official sources (Table 6), then primary studies are examined to check the use of principles, practices, tools and practices (Table 7). If that is the case, then the first part (official sources) it is not properly linked to the second part (primary studies). Are the ones of primary studies a subset of the ones in official sources? ``PS163 suggested four principles'' or ``The study PS11 suggested a new practice'' sound like primary studies propose new principles and practice that was not anticipated by official sources. A clearer and more detailed mapping between official sources and primary studies is required for principles, practices, tools and practices. }
-\textbf{Response:}
-We thank you for the comment. We clarify that some primary studies suggested new principles, practices, tools and metrics which were not anticipated by the official sources. These emerging ones are not a subset of the ones in official sources. In Section 3.4, we discussed how we identified and mapped the ones in official sources and primary studies (see the highlighted text). In the current version, in Table 7 (Table 6 in previous version) we put the emerging principles, practices, tools, and metrics side-by-side with the ones in official sources. 
-
-\rcomment{Third, maybe some principles from official sources are a bit in the ``motivational'' side (most remarkable ''Be Awesome'' from DAD). I understand the paper acknowledges them ``as is'' for objectivity. However, maybe it is helpful to also link them to broader concepts (e.g., team motivation).
-}
-\textbf{Response:} We agree with this comment and to address it we have inserted the following text in the conclusions section: \\
-``A further limitation of the study is that while many method practices are very clear and operational, others are somewhat vague and open to misinterpretation e.g. the ``Be Awesome'' practice in DAD. The purpose of this study was not to decipher the meaning of these vague practices, but rather to analyse the empirical papers that studied these practices in an objective way. However, future research could analyse and help strengthen the conceptual depth of these more ambiguous practices by applying an appropriate theoretical lens. In the case of ``Be Awesome'' for example, a lens from motivation, psychology or innovation theory may be appropriate.''
-
-\rcomment{Check footnote 5 (page 6), two urls are mixed up.}
-\textbf{Response:}
-We thank you for the comment. We have fixed the footnote.
-
-\rcomment{Instead of using abstraction level on RQ2, would not it be better to use adoption level?}
-\textbf{Response:}
-We thank you for the comment. The authors discussed this point extensively. We believe at this stage it was more beneficial to study the principles, practices, tools and methods (abstraction) in a consistent way as this had been done in an ad hoc and confusing manner in the past. Our study examined the extent to which these studies have examined each of these rather than the level of adoption the company reached. We felt getting a consistent coherent level of analysis was a preceding step to examining adoption. To address this comment we have done two things:
-\begin{itemize}
-	\item	We have more clearly explained what we mean by abstraction as we realise this may not have been clear and was causing confusion.
-	\item	We have included adoption of large scale methods as in important agenda in the future research section.
-\end{itemize}
-%\hl{(Maybe we could use the term "application level" or "level of use"?)}
-
-\rcomment{After rework of RQ2, section 6.2 might require updating.}
-\textbf{Response:}
-We thank you for the comment. As suggested, we have expanded Section 6.2.
-
-\rcomment{It would be beneficial to have a summary of takeaways at the end of Introduction.}
-\textbf{Response:}
-We thank you for the comment. We have provided Section 1.2 to summarise our key contributions/takeaways.
+We thank you for the comment. 
 
 \clearpage
 
 \section{Reviewer 2}
+\rcomment{I found that the revised paper sufficiently addressed the comments I raised. (1) I asked for an expanded Discussion to include implications for theory and practice. This has been added and greatly contributes to the improvement of the paper. (2) I raised two concerns about how the original manuscript cited and addressed previous literature reviews, including erroneous summaries and descriptions. These have been addressed with sufficient corrections and adjustments to the manuscript. \\
 
-\rcomment{That being said, I think the Discussion and Conclusion sections need to be greatly expanded. Currently, the sections provide a nice summary of the categorizations of the literature. I appreciate that this took a lot of work and time. These summaries are valuable. However, I think this paper could provide even more value by expanding on two areas: (1) a subsection dedicated specifically to implications for practice. This section would provide guidelines for practitioners on what they can gain from the results of this literature review. (2) a subsection dedicated to future work. The paragraph in the conclusion is not enough. By viewing the tables in this paper, it is clear that there are some interesting "research gaps" that need to be studied. Authors should synthesize this and provide more clear and specific ideas for interesting future research. In summary, I like what the literature review found, but I think the paper would be much more value with clear and specific implications for both practice and theory.}
+Thus, I feel that all my previous concerns have been sufficiently addressed and I appreciate the work done by the authors to address them.
+}
 \textbf{Response:}
-We thank you for the suggestion. We have inserted a section to discuss the implication for practice (Section 6.6) We have also elaborated on future research and inserted a dedication section (Section 6.5).
-%We thank you for the suggestion. We have expanded our discussion section to discuss the implication for research (Section 6.5) and practice (Section 6.5). We have also elaborated ideas to further advanced research in this area in Section 7.
-
-\rcomment{The other major piece to be addressed is distinguishing this paper from the many other literature reviews that have been published in the last few years. I think that overall the authors have done a fine job and distinguishing the unique RQs of this paper from the focus of other recent reviews. I examined the 11 reviews cited in this manuscript and I largely agree with the authors in how this particular manuscript is different and valuable. One area where I would disagree is the [21] review, which (contrary to what the authors say) does not seem to be about transformations to hybrid processes. Rather, this study is a general literature review about agile practices in large organizations. Thus, I would say that the issue with this particular review is that it is old (the great majority of primary studies and frameworks discussed in the manuscript emerged after the publication of that article). Thus, this article is still different, but for a different reason than stated. }
-\textbf{Response:}
-We thank you for the comment. To make the distinction between this and past SLRs more clear we have inserted a section on contributions of the study (Section 1.2) and also elaborated on the Related work section (Section 2) to discuss the specific points you mention, as well as strengthening it generally.
-
-We agree with the reviewer regarding the study [21] (it is [no. [8] in the current version). It studied large-scale agile development in general rather than method specific. We have improved this in the related work section, as follows: \\
-``In terms of challenges and success factors (RQ3 \& RQ4), the studies by Putta et al [28] and Kalenda et al [15] also reported the challenges and success factors of SAFe and LeSS. Three reviews reported the challenges and success factors of large-scale agile development in general instead of method-specific ( [6], [31], [32]).''
-
-\rcomment{The other point in regards to this section that should be addressed is the final sentence which states ``In addition, the quality of these reviews are not optimal.'' This statement is never elaborated (the authors don't state why they feel these reviews are sub-optimal). It would be important for the authors to either elaborate (clearly state the challenges of other reviews that this review overcomes), or else remove this controversial statement.}
-\textbf{Response:}
-We thank you for the comment. We have removed the statement in Section 2 and elaborated the comparison of existing reviews based on the review method and how they addressed our research questions in Section 2. 
+We thank you for the valuable feedback to improve our paper and are glad that you are happy with the revision.
 
 \clearpage
 
 \section{Reviewer 3}
+\rcomment{A. I am very much concerned that for some relevant papers that I indicated in my review, the authors state that they did not include these sources just because these sources did not have ``the right key words''. Well, I think this is not a good reason to exclude potentially relevant. We know that each journal and conference has a tacit culture of choosing keywords (of course there are accepted rules but adding key words may often go well beyond the explicit rules). Barbara Kitchenham suggests that we build our search strings as a result of experimentation by gradually expanding our strings in order to be able to hit all those papers that we know are relevant. \\
 
-\rcomment{This paper treats a topic with a very long history in IT project delivery, in software engineering, Information Systems and systems engineering. The paper has some scope and methodological flaws, which need urgent attention. The scope of the paper is extremely broad, it covers both challenges and success factors, each of which has history in research in large scale software engineering and systems engineering. These are 2 very broad topics and each of them is better to be treated in a separate review. Otherwise, the paper will become unnecessarily very long.
-The research methodology is not well explained. Terminology is not well-defined. Critical primary studies are missed out. Results are not well explained. Related work is only partially relevant to the topic. Implications for practice and theory are missing.}
+If you chose not to follow this approach to hitting the most relevant papers, I will be fine with your choice but please assure the following:
+\begin{enumerate}
+	\item You provide argumentation of why you decide to ignore certain papers
+	\item Provide discussion on validity due to this. By leaving out some potentially relevant papers, you accept to inject some validity threats to the research process, and this calls for a discussion and thinking of some measures to mitigate the risk that the review will be incomplete due to missing work (missing out on potentially relevant empirical papers)
+\end{enumerate}}
 \textbf{Response:}
-We thank you for the comment. In the current version, we have addressed the concerns as follows:
+We thank you for the comment. As we described in Section 3.1, our search strings did not come from a vacuum, but were informed by existing literature reviews on large-scale agile and the VersionOne report. Our search string comprises of three groups which was separated by AND- clauses. The first group was to ensure that the methods used in large-scale development are agile methods. Second group was to capture studies on software engineering or information system development. Finally, the third group was to scope the search process on large-scale settings only. Therefore, to be included in the review process, a paper should report the use of agile methods for software development in large-scale setting. 
+
+We realised that research on large-scale agile development is a cross-disciplinary study, and so terms used to describe the phenomenon are inconsistent. Therefore, in Section 3.5.2 we acknowledged the threat of missing relevant papers. However, to minimise the threat of missing excluding relevant papers, our strategy was to retrieve as many peer reviewed papers as possible in both SE and IS digital libraries. We also performed a snowballing approach as suggested by Kuhrmann et al (2017). In Section 3.5.3, we discussed our strategy to minimise the threat to consistency of selection primary studies and data extraction. To be included in the analysis, two reviewers had to agree on individual paper.
+
+\rcomment{B. Please see in the Response to Reviewers, Comment 12: You state in the Response to Reviewers that you do not look at failure factors. However, in your letter you also state: ``Challenges are issues that may cause project delays, quality issues, or failure if not addressed [27], [28], [29].''  So, what is the relationship between challenge that you define right now and the term ``failure''?}
+\textbf{Response:}
+We thank you for the comment. We have updated the text as follows: \\
+``Challenges are issues or obstacles that demand great consideration and need to be overcome [27]. When challenges are unmanaged, they may cause project delays, quality issues, or failure [28], [29].''
+
+\rcomment{C.
+Further on your comment 12: ``Most existing studies focus on either challenges or success factors but not both.'' Yes, I agree, but why this is essential? Would not we appreciate the collective body of knowledge, and not the fact that the challenges are researched by one team of authors, and the success factors - by another team? Yes, you juxtaposed these two, but in what way this is different compared to positioning two works (one on challenges and one on successes) next to each other? I think it is OK in any discipline to have parts of the whole researched by different teams. Sorry, but this on its own is not a contribution: -) if you chose to treat them both, this is a desktop decision and I agree with it as this is your research protocol.}
+\textbf{Response:}
+We thank you for the comment. As we discussed in Section 2, that from 10 existing literature reviews on large-scale agile, only three reviews reported the challenges and success factors or large-scale agile development in general rather than method specific. Two reviews specifically looked at individual method such SAFe (Putta et al 2018) and SAFe and LeSS (Kalenda et al. 2018). Also, none of these reviews reported on custom-built methods. Our contribution instead is to identify and summarise all the findings on all commercial, custom-built and scaled agile reported in the literature. We have updated the text as follows: \\
+``Most existing literature reviews on large-scale agile method focus on either challenges or success factors but not both.''
+
+\rcomment{D. See Comment 19: I see you acknowledge that there are many challenges that are also those that we know from 40 years ago and that are usual for large scale projects (waterfall). I think, in the discussion you should add a paragraph on this. \hl{Please mark those that are new and attributable to agile}. And comment that others might not be attributable to agile but to the fact that the project is large scale. In fact, if a challenge exists just because the project is big, then we do not assume that agile large scale will make this challenge disappear. I think that many of the old challenges will stay, but it is possible that new and unexpected challenges would come up -- and this is where your paper adds new knowledge (it shows the collective list of new challenges that we did not know in large scale project from the time before agile).}
+\textbf{Response:}
+We thank you for the comment. \hl{HE -- Does it mean that we have to look at challenges of large-scale projects (including waterfall)?}
+
+\rcomment{1.
+Please see Sect.1.1., 2nd column where you talk about the contributions: ``identify and present in one location various extensions to each of the original methods that have been proposed in the literature''. Sorry, but what ``location'' means in this sentence? I am confused... very sorry, you lost me here. What location do you mean? Please rephrase for clarity. \\
+
+2. See in the same para, ``Until now, the original method was separated from any new recommended additions''. The article ``the'' hints to a method that has been introduced earlier. Which method do you refer to, here? This paragraph does not read well, please elaborate.}
+\textbf{Response:}
+We thank you for the comments. What we meant that in Table 6, based on the review findings, we presented various extensions to each of the prescribed large-scale agile methods (this is also to address the second comment about the article 'the') in terms of the principles, practices, tools, and metrics. We have updated the text as follows: \\
+``In addition, we identify and present in one location (see Table 6) various extensions to each of the prescribed large-scale agile original methods that have been proposed in the literature. Until now, these methods were separated from any new recommended additions that emerged through various pieces of empirical research.''
+
+
+\rcomment{3. Please see: ``We decided to incorporate both because they are two inter-related and not completely overlapping facets of the application of large-scale agile methods.''  I do not understand what you mean with ``...not completely overlapping facets''. There is no published research that states that challenges and success factors are ``overlapping''. I therefore can not see what point you are trying to make here. Please rephrase or elaborate for clarity.}
+\textbf{Response:}
+We thank you for the comment. We have removed the text and updated the paragraph, as follows:\\
+``Most existing literature reviews on large-scale agile method focus on either challenges or success factors but not both. We decided to incorporate both because they are two inter-related. However, tackling all challenges may not guarantee the successful application of these methods. Similarly, a company having all success factors in place can still encounter other challenges when applying large-scale methods. Inspecting both in one study enables us to produce the most comprehensive overview possible.''
+
+\rcomment{4. In Section 4, before you start explaining what characteristics theories share, please add a linking sentence in the style ``For the purpose of this work, we adopt Gregor's understanding of ``theory''. The ref to Hannay et al can be dropped here and used later as an illustration). Adding such a sentence will make the text flow smoother.}
+\textbf{Response:}
+We thank you for the suggestion. We have fixed the text as follows:\\
+``For the purpose of this work, we adopted Gregor's [56] understanding of theory, as follows: (i) generalisation -- an attempt to generalise knowledge of specific events or object into more abstract and universal, (ii) causality -- the relationship between cause and effect, and (iii) explanation and prediction -- understanding and predicting a phenomenon and guiding action.''
+
+\rcomment{5.
+See section 6.4. last sentence: ``While the timeliness and importance of these methods to practitioners is evidenced...'' Do you mean *evident*? Please rephrase for clarity.}
+\textbf{Response:}
+We thank you for the suggestion. Yes, we mean evident. We have fixed the issue.
+
+\rcomment{7. The text needs polishing. there are long sentences that could be simplified (cut in 2) in order to improve readability. I recommend the authors give it a very careful polish, so that the paper reads smoothly. Here are some language mistakes that could be fixed (but there are more):
 \begin{itemize}
-	\item \textit{scope and methodological flaws:} As suggested by the reviewer team, we have now: (i) tightened the focus of the paper to focus on large scale agile development methods only -- specifically SAFe, Scrum at Scale, DAD, Spotify and LeSS as well as custom-built methods, (ii) provide definitions of terms used in the paper -- there are many terms where the review team looked for a clear definition or explanation. We have addressed all and referred to them in this response document at each point where mentioned by a reviewer. (iii)  included additional keywords: ``mega project'', systems-of-systems'' and 'distributed' into our search string and re-run the review process on articles with these keywords.
-	\item \textit{challenges and success factors:} We have decided to keep both in the paper. We completely understand the reviewer's comment here and the logic for focusing on one. However, now that we focused on agile only, we felt the challenges and success factors would be more focused. The main reason for keeping both is that, as we explain in the introduction, the two are related but many existing researchers have missed key issues by focusing on one or the other. We feel the synthesis of both has addressed this issue. 
-	\item \textit{terminology:} Similar to our response to the Associate Editor (Comment 1), there are many terms where the review team looked for a clear definition or explanation. We have addressed all and referred to them in this response document at each point where mentioned by a reviewer.
-	\item \textit{missing primary studies:} We thank the reviewer for the suggestion of the additional keywords. We have re-run our search and analysis process to ensure that we comprehensively covered all relevant primary studies.
-	\item \textit{results are not well explained:} We have included and expanded the results and discussion section by providing (i) information on the authors, countries and business sectors, (ii) we have distinguished the findings from experience report and empirical research and from IS and SE communities, (iii) the principles, practices, tools and metrics prescribed in the official sources and the emergent ones from the primary studies.
-	\item \textit{related work is only partially relevant to the topic:} We have identified new related work based on the suggested keywords and discussed them based on our research questions. The fact we have made clearer the specific focus on agile large scale development (rather than methods generally helps with this task.)
-	\item \textit{Implications for practice and theory:} We have now inserted dedicated sections discussing the implications for current and future research (Section 6.5) and practice (Section 6.6).
-\end{itemize}
-
-\rcomment{Below I provide more specific feedback and references hoping the authors would find this useful. Perhaps, the author could consider writing 2 systematic reviews (on challenges and on success factors), but execute them with more rigor.}
-\textbf{Response:}
-We thank you for the comment. We have considered the possibility of separating the two RQs but we decided to keep them together, because challenges and success factors are often different views on the same issues that matter to the use of large-scale agile methods. We added this argument in Section 1.2 to justify why we have these two RQs in one paper:\\
-``Most existing studies focus on either challenges or success factors but not both. We decided to incorporate both because they are two inter-related and not completely overlapping facets of the application of large-scale agile methods. Therefore, tackling all challenges may not guarantee the successful application of these methods. Similarly, a company having all success factors in place can still encounter other challenges when applying large-scale methods. Inspecting both in one study enables us to produce the most comprehensive overview possible.''
-
-\rcomment{1. terminology. To understand the paper, the authors need to provide definitions for the following terms:
-\begin{itemize}
-	\item What is ``large-scale''?
-	\item See page 2, line 7 and line 25: What does *contemporary* mean? E.g. would Accelerated SAP for rapid implementation of large-scale SAP projects count for "contemporary"? 
-	\item what is a success factor?
-	\item What is *level of abstraction* (principles, practices, tools, and metrics). Do these come from a published source? If so, mention it here. Otherwise, motivate *your chosen* levels of abstraction and why these make sense. 
-	\item what is ``home-grown''?
-\end{itemize}
-}
-\textbf{Response:}
-We thank you for these comments. 
-\begin{itemize}
-	\item \textit{``large-scale'':} In Section 1 we have provided the definition of this term. 
-	\item \textit{``contemporary'':} We now realise that the continuous use of the term ``contemporary'' was vague and confusing. We have now tightened the focus of the paper to focus on large scale agile development methods only, as suggested by the reviewer team, and the use of the term `contemporary' has been removed throughout the entire paper. 
-	\item \textit{``success factors'':} In Section 1.2, we have provided the definition of this term.
-	\item \textit{``level of abstraction'' }: In Section 1.2, we have also further elaborated the ``level of abstraction'' as follows: \\
-``A method comprises different levels of abstraction: A principle is a proposition that serves as the foundation or basis for a system. It does not prescribe an action or process but rather provides a basis for making those decisions. Practices are habitual or customary ways of doing something,
-acknowledged by a community as the correct way to do things [25], [26]. Tools (e.g. diagrams, notations, or computer support) are used to support the application of the practices [24]. Metrics are used to evaluate development performance achieved when using the method.'' 
-	\item \textit{``home-grown'':} We realise the term ``home-grown'' was a colloquial and confusing term. We have now replaced this with ``methods that are custom-built by an organisation'' to clarify.
-\end{itemize}
-
-\rcomment{section 4 used the term ``theory''. This needs to be defined. You speak of theory-guided approach. What does this mean? Please note that this term rings different bells in the minds of different TSE readers, therefore should be explicitly stated. The easiest is to take a definition of a well-established source (see R. Wieringa et al. The Structure of Design Theories, and an Analysis of their Use in Software Engineering Experiments. ESEM 2011: 295-304)}
-\textbf{Response:}
-We thank you for the comment. We have added the following statement to clarify the term theory:\\
-``Theories share three characteristics [54], [55]: (i) generalisation -- an attempt to generalise knowledge of specific events or object into more abstract and universal, (ii) causality -- the relationship between cause and effect, and (iii) explanation and prediction -- understanding and predicting a phenomenon and guiding action. Among the 127 empirical research papers, only 8\% (10 studies) use theories to examine this topic. Most of the theories were used to explain (i) how and why some phenomena occurred, e.g. coordination mode and mechanism theory (PS23, PS38, PS88), trust-mediated organisational control (PS31); (ii) the causality between people and technology, e.g. socio-technical systems theory (PS26), project governance (PS71), knowledge management theory (PS109), relational coordination theory (PS146), routine dynamics theory (PS152), and adaptive structuration theory (PS180).''
-
-\rcomment{2. Introduction:\\
-The text suggests implicitly that *all* large-scale development today employs **agile** ideas in some way. The references that you use cast this impression. Also the examples. I think this creates confusion. First, it is a fact that ***not*** all large-scale projects are using the scaled agile frameworks for project delivery.  In many domains and in systems engineering, there are many projects using other models. See, Eray T\"{u}z\"{u}n, Bedir Tekinerdogan, Yagup Macit, K\"{u}rsat Ince: Adopting integrated application lifecycle management within a large-scale software company: An action research approach. J. Syst. Softw. 149: 63-82 (2019) \\
-
-Also, see, e.g. Oppenheim, B. W., Murman, E. M., \& Secor, D. A. (2011). Lean Enablers for Systems Engineering. Systems Engineering, 14(1), 29--55. doi:10.1002/sys.20161 \\
-
-If you wish to focus on large-scale agile, I am fine with this, but it must be state explicitly in the abstract, in the introduction and everywhere else in the paper.
- }
-\textbf{Response:}
-We thank you for the comment. We agree with this comment. We did not intend to imply that all development used agile but we  certainly see how our use of the term `contemporary large scale development' was being interpreted as implying all contemporary development adopted an agile approach. We have now explicitly stated our focus on large scale agile as Reviewer 3 suggests. We have edited the paper through out and made this clear in the abstract, introduction and indeed all parts of the paper. We have removed the term `contemporary' throughout the entire paper as this was contributing to the confusion. Also we have inserted the following limitation at the end of the paper to highlight reviewer 3's point. 
-
-In terms of limitations, while agile approaches to large scale development are becoming increasingly prevalent, they are by no means the only approaches for large scale project delivery.  In systems engineering for example, there are many projects using other models e.g. Eray et al. (2019), Oppenheim et al (2011). Some of our findings may also be relevant in those contexts, but as can be seen from some challenges and success factors may be specific to agile development or at least exacerbated in that context due to the fluidity and dynamism intentionally inherent in agile method variants.
-
-\rcomment{3.Related work:\\
-This section is focused on literature studies on agile only. Your submission is covering multiple topics: success factors, large-scale systems, challenges. Therefore the related Work should be expanded to include those topics that are missing in the current version.
-In particular, this section needs to provide background on multiple types of large-scale systems. Below I include examples of reviews that are relevant for your work and are on topics directly related to yours. But my list is not exhaustive, so please find and include more.
-\begin{itemize}
-	\item Joakim Pernst\r{a}l, Robert Feldt, Tony Gorschek: The lean gap: A review of lean approaches to large-scale software systems development. J. Syst. Softw. 86(11): 2797-2821 (2013)
-	\item Petter, Stacie; DeLone, William; and McLean, Ephraim R. (2012) ``The Past, Present, and Future of ``IS Succes'','' Journal of the Association for Information Systems: Vol. 13 : Iss. 5 , Article 2.
-DOI: 10.17705/1jais.00296
-	\item J. Axelsson, ``A systematic mapping of the research literature on system-of-systems engineering,'' 2015 10th System of Systems Engineering Conference (SoSE), San Antonio, TX, 2015, pp. 18-23, doi: 10.1109/SYSOSE.2015.7151918.
-	\item Miguel Jim\'{e}nez , Mario Piattini, Aurora Vizcaíno, Challenges and Improvements in Distributed Software Development: A Systematic Review, Advances in Software Engineering. Volume 2009 |Article ID 710971 | 14 pages | https://doi.org/10.1155/2009/710971
-	\item C. A. Lana, N. M. Souza, M. E. Delamaro, E. Y. Nakagawa, F. Oquendo and J. C. Maldonado, ``Systems-of-systems development: Initiatives, trends, and challenges,'' 2016 XLII Latin American Computing Conference (CLEI), Valparaiso, 2016, pp. 1-12, doi: 10.1109/CLEI.2016.7833329
+	\item RQ1, needs a question mark at the end ``?''
+	\item Scientific writing is about explicitness; please remove the word ``etc'' where it leaves open questions, see e.g. section 1.2. line 45. For example, earlier, we state DevOps; however, in line 45 DevOps is missing and is replaced by ``etc''. I suggest you drop ``etc'' and use ``DevOps'' instead
+	\item See 5.4 RQ4 -- Success Factors of Applying Large-Scale Agile Methods; please correct ``...Factors **for the Application of** Large-scale Agile Methods''
+	\item  See ref [57]. It should be ``use'' and not ``usee''
+	\item Please check the references as well.
 \end{itemize}
 }
 \textbf{Response:}
-We thank you for the comment. The term ``large-scale'' was part of our search terms. We did not use the terms ``success factors'' and ``challenges'' as part of our search terms. We aimed at collecting all primary studies in large-scale agile development then we looked for the papers on success factors and challenges manually. As we discussed in Section 3.5.3, we did not attempt to optimise the search string for high level of precision. The reason is that it is impossible to know all existing relevant items, thus the threat of missing relevant articles still exists. Inconsistency terminology, in particular in large-scale software development research or use of different terminology with respect to the exercised search string (Appendix A) may have biased the identification of primary studies. In the current version, the discussion of related work is tightened to the existing reviews on large-scale agile methods only.
-
-From the four papers listed above, only one paper (Pernst\r{a}l et al., 2013) was retrieved in our search and discussed in Section 2. The other papers did not contain our search terms. We can see why the reviewer would have correctly thought these were relevant. However by clarifying that our focus is on agile only, it helps to show why these would not have been relevant.
-
-%In relation to previous comment (Review 3, Comment 3) that the focus of the paper is now on large-scale agile, we only review related work on large-scale agile development.  We have also updated and re-run our search string to find related work. Now we found 19 (it was 11 in the previous version) related systematic literature reviews in this area.
-%Some of the suggested references have been incorporated into our analysis.
-\rcomment{4. Scope of the review: do you include large-scale DevOps? This is not clear.}
-\textbf{Response:}
-We thank you for the comment. As listed in Appendix A, we did include the term ``large-scale'' and ``DevOps'' in our search terms.
-
-\rcomment{I repeated the query and got some more papers that are relevant:
-\begin{itemize}
-	\item Qureshi et al., Lean Agile Integration for the Development of Large Size Projects, I.J. Modern Education and Computer Science, 2019, 5, 24-33 Published Online May 2019 in MECS (http://www.mecs-press.org/) DOI: 10.5815/ijmecs.2019.05.03
-	\item Goh, Jenson Chong-Leng; Pan, Shan L.; and Zuo, Meiyun (2013) ``Developing the Agile IS Development Practices in Large-Scale IT Projects: The Trust-Mediated Organizational Controls and IT Project Team Capabilities Perspectives'', Journal of the Association for Information Systems: Vol. 14 : Iss. 12 , Article 1. DOI: 10.17705/1jais.00348
-	\item Torkar, Richard; Minoves, Pau; and Garrig\'{o}s, Janina (2011) ``Adopting Free/Libre/Open Source Software Practices, Techniques and Methods for Industrial Use'', Journal of the Association for Information Systems: Vol. 12 : Iss. 1 , Article 1. DOI: 10.17705/1jais.00252
-	\item Peerasit Patanakul, Managing large-scale IS/IT projects in the public sector: Problems and causes leading to poor performance, The Journal of High Technology Management Research, Volume 25, Issue 1, 2014, Pages 21-35
-\end{itemize}
-}
-\textbf{Response:}
-We thank you for the comment. Only the study by Qureshi et al. (2019) and Goh et al. (2013) were retrieved in our search results, while the studies by Torkar et al. (2011) and Patanakul (2015) were not retrieved as they were not about large-scale agile development. The study by Qureshi et al. (2019) was excluded as the paper proposed a new method and was never actually implemented in real-life software development projects. We have updated the selection criteria in Table 1 (highlighted text).
-
-\rcomment{You did not use synonymous, for example``mega-projects'', ``systems-of-systems''. For example this paper is relevant for your study:
-
-- T. Zemel and W. Rossak, ``Mega-Systems-the issue of advanced systems development'', Proceedings of the Second International Conference on Systems Integration, Morristown, NJ, USA, 1992, pp. 548-555, doi: 10.1109/ICSI.1992.217308.
-}
-\textbf{Response:}
-We thank you for the suggestion. We have added the suggested terms into our search string and re-run the search. The updated search terms are listed in Appendix A. The suggested paper was not retrieved in our search process as it does not contain our search terms (specifically, it did not include agile or any agile-related terms).
-
-\rcomment{And why not considering the project factor of being *distributed*?}
-\textbf{Response:}
-We thank you for the suggestion. We have also added the suggested term into our search string and re-run the search. The updated search terms is shown in Appendix A.
-
-\rcomment{What about searching for Big DevOps? Big Continuous integration? E.g. 
-\begin{itemize}
-	\item Niels Brede Moe's 2019 paper : Dependency Management in Large-Scale Agile: A Case Study of DevOps Teams
-	\item Daniel St\r{a}hl Jan Bosch, Cinders: The continuous integration and delivery architecture framework Information and Software Technology Volume 83 March 2017 Pages 76-93
-\end{itemize}	
-	}
-\textbf{Response:}
-We thank you for the comment. Similar to our response to Comment 7, we did include the term ``DevOps'' and ``Continuous Integration'' into our search string. The study by Moe et al (2019) was retrieved in our search process and part of our primary studies (PS190), while the study by St\r{a}hl and Bosch was not as it does not contain the search terms.
-
-\rcomment{5. Formulation of the research questions (RQ):\\
-RQ3 asks for challenges. But would not be relevant to consider risks as well? Failures? How the term challenge is defined? I mean, it is your choice to include risks into it or not. But when you make the decision, please write it explicitly so that readers can understand what you mean. 
-See:
-M. Ramirez Arizmendi, L.Stapleton, Failure Factors in the Control of Large-Scale Business Intelligence Systems Development Projects: Case Study of an Advanced Engineering Firm in MexicoFAC-PapersOnLine Volume 52, Issue 25, 2019, Pages 579-584}
-\textbf{Response:}
-We thank you for the comment. We decided that we looked at challenges, instead of risks or failures factors. In Section 1.2 we discussed our understanding on challenges as follows: 
-
-``Challenges are issues that may cause project delays, quality issues, or failure if not ad   [27], [28], [29]. Success factors are the things in which ``things must go right'' as they are strongly related to the achievement of strategic goals [30], [31]. Most existing studies focus on either challenges or success factors but not both. We decided to incorporate both for two reasons. First, some challenges exist even though there are as yet no identified success factors to resolve them. Similarly, there may be success factors that have been shown to impact development success and outcomes, even though it may not be clear as yet why or what challenges they overcome. Second, as existing researchers typically choose one or the other, we chose both to produce the most comprehensive overview possible.''
-%In RQ3, we seek to identify those challenges of adopting or using large-scale agile development method identified in RQ1. Referring to the project management triangle, successful projects are those completed on time and within budget and scope. However, all projects are risky as they deal with varying level of complexities and uncertainties. Risk is defined as ``an uncertain event or condition that, if it occurs, has a positive or negative effect on one or more project objectives.'' [22]. When risks are unmanaged, they may cause the project to deviate from the plan and fail to deliver its objectives. Challenges are issues or obstacles that demand great consideration and need to be overcome [23]. Projects may be completed and operational, but they may face challenges that make them suffer budget overruns or late delivery, offered low quality products or under-scope [24], [25]. Failure factors are challenges which are not addressed for any reasons, e.g. the absence of alternative options, may cause the cancelation or abandonment of projects [24].''
-
-\rcomment{RQ4 asks about success factors. Note that there are systematic reviews on this topic, e.g. Kim-Karol Dikert, Maria Paasivaara, Casper Lassenius: Challenges and success factors for large-scale agile transformations: A systematic literature review. J. Syst. Softw. 119: 87-108 (2016)
-
-And
-
-M Shameem, et al.mar, B Chandra Systematic review of success factors for scaling agile methods in global software development environment: A client-vendor perspective, 2017 24th Asia-Pacific SE Conf.}
-\textbf{Response:}
-We thank you for the comment. We are aware of the two literature reviews and both papers were retrieved in our initial search process (see Section 2). The study by Dikert et al. (2016) reported the challenges and success factors of large-scale agile development in a collective and aggregate manner instead of method-specific that does not allow researchers or practitioners to compare and contrast the methods in the study. Moreover, the study by Shameem et. al. (2017) was in the context of global software development (GSD). GSD does not necessarily mean large, thus the review also included studies on small-size teams.
-
-\rcomment{6. Study selection: Please add a picture that describes your research process and reduction of the number of considered papers.}
-\textbf{Response:}
-We thank you for the suggestion. Figure 1 now illustrates the selection process.
-
-\rcomment{7. Regarding research methodology, the authors would benefit by consulting the work of Kuhrman and Mendes: Kuhrmann, Marco, Daniel M\'{e}ndez Fern\'{a}ndez, and Maya Daneva, ``On the pragmatic design of literature studies in software engineering: an experience-based guideline'', Empirical Software Engineering, 2016, pp.1-40.
-In particular, this paper elaborates on snowballing and other aspects of searching and organizing literature studies. 
-}
-\textbf{Response:}
-We thank you for the suggestion. While we followed the SLR guidelines as suggested by Kitchenham et al (2007, 2015), we have seen that our steps were aligned their guidelines. For example, as described in Section 3.2, we employed majority voting (Kuhrman et al., 2016) in the selection process, as two reviewers independently evaluate each paper. 
-
-\rcomment{8. See Table 6. This table is about principles and other details that characterize the methods. But these are **not** findings from the papers that you reviewed. You could generate this paper by reading the respective textbook. Whereas, table 5 and Table 7 *are* results from your research. Table 6, between Table 5 and Table 7, can create a confusion and mislead readers that table 6 is also a result from the literature analysis (while in fact it is not). To avoid this, I strongly recommend you include results only, in this section. The table can go to Appendix, or can be dropped altogether. You can write that interested readers could go to the respective reference to find the principles of the approaches you list in table 6.}
-\textbf{Response:}
-We thank you for the comment. We understand this comment. However, similar to our response to Reviewer 1 (Comment 7), we decided to keep Table 6 (now it is Table 7) to capture the principles, practices, tools and metrics prescribed by each method. However to address your comment we extended the table to show new practices that have been added to each method through empirical research. Now researchers and practitioners have one place they can go to (this paper) to get not just the original method, but also any extensions or additions that have emerged through the empirical research.
-
-\rcomment{9. Please see Section 5.2.4. 
-Knowing large-scale agile deals with portfolio management (DAD, SAFe), it is surprising to see that your study found only 4 papers to include. It seems to me, your search missed some important case studies, published at the XP conference and other related venues:
-\begin{itemize}
-	\item Christoph Johann Stettina, Lennard Schoemaker: Reporting in Agile Portfolio Management: Routines, Metrics and Artefacts to Maintain an Effective Oversight. XP 2018: 199-215\\
-	\item Marta Olszewska, JeanetteHeidenberg, MaxWeijola, Kirsi Mikkonen, IvanPorresab, Quantitatively measuring a large-scale agile transformation, Journal of Systems and Software Volume 117, July 2016, Pages 258-273
-\end{itemize}
-}
-\textbf{Response:}
-We thank you for the comment. We agree that large-scale agile may deal with portfolio management. However, in this study, as suggested by the definition of large-scale (Dikert et al., 2016), which focus on a common product or project. Thus, the term portfolio was not part of our search terms. From the two suggested papers, our search process returned the second article (Olszewska et al., 2016), while the first article were not retrieved as it does not contain our search terms related to the scale.
-
-%We were not specifically looking at portfolio level, thus it was not part of our search terms. %However, the second study was retrieved in our search results.
-
-\rcomment{And what about maturity? Do you consider including maturity assessment of large-scale (agile) project organizations? }
-\textbf{Response:}
-We thank you for the comment. We understand this comment. We feel that maturity is a very interesting area but not one we could include given the volume of information from the basic study on the method abstraction exercise. To address this we have inserted the following in the limitations/future research section.
- 
-``Also, this study did not consider the levels of method adoption or maturity across the papers studied. The purpose of this study was just to focus on the different principles, practices, tools and metrics used. Given that the adoption and subsequent maturity of large scale agile methods is often a long and in itself challenging one [7], it is likely that organisations will struggle with different challenges at different points in the adoption process, and also that both challenges and success factors will be particularly relevant and exacerbated at various points. Future research could adopt a longitudinal study for example to examine this over time.''
- 
-
-\rcomment{10. Table 9 shows the success factors. But many of these are also success factors are mentioned in the work of researchers investigating large systems in the past 40 years. The research on large scale Enterprise Resource Planning systems teaches us that Executive Buy-in, Stakeholders support, Full-time and dedicated team, Architectural guidelines are factors that make or break a large project. Table 9 creates the impression that these factors are associated exclusively with large-scale agile, while in reality, these factors are relevant for **all** big projects, waterfall including. So, what is the new contribution in table 9? \\
-
-Please see:
-\begin{itemize}
-	\item MA Vargas et al, A multi-dimensional model of Enterprise Resource Planning critical success factors, Enterprise Information Systems, 2020 - Taylor \& Francis
-	\item Parr, A., \& Shanks, G. (2000). A model of ERP project implementation. Journal of information technology, 15(4), 289-303.
-	\item Somers, T. M., \& Nelson, K. (2001). The impact of critical success factors across the stages of enterprise resource and planning implementations. Proceedings of the 34th Hawaii International Conference on System Sciences, USA, 105, 1-10. https://doi.org/10.1109/HICSS.2001.927129
-	\item Enrique Rodríguez-Segura, Isabel Ortiz-Marcos, José Javier Romero, Javier Tafur-Segura, Critical success factors in large projects in the aerospace and defense sectors, Journal of Business ResearchVolume 69, Issue 11 November 2016 Pages 5419-5425
-\end{itemize}
-}
-\textbf{Response:}
-We thank the reviewer to raise this valid and valuable point. We agree that many of these success factors are reported in the existing studies that investigate large-scale projects in various domains. However many are not- given the dynamic, flexible nature of agile there are some challenges and factors which are different or at least exacerbated in an agile context compared to other settings such as aerospace or defence where project change and scope change are often tightly controlled and development as a whole is very tightly regulated. Examples include ``Conflict between long-term planning and the short-term sprint-based planning of agile'' and ``Synchronising across dynamic and fast-moving team''. Our decision was not to take out challenges that have older pre-agile roots but to present them alongside the new ones. However, we agree with the point and have inserted text on this in the discussion. We improved and expanded Section 6.4 accordingly (see our response to your next point below).%This is somehow implicitly reflected by the case companies listed in Appendix C covering various business domains and types of software systems. We didn't intend to claim that these factors are associated exclusively with large-scale agile. What we did more than the existing studies is to associate them with large-scale agile methods applied in the companies, to contextualise the factors from the development method perspective. We improved and expanded Section 6.4 accordingly, as suggested by this and next comment.
-
-\rcomment{11. Related to my previous comment, I suggest you expand section 6.4 with discussion on how your findings compare with examples of literature dealing with the same topic in specific areas -- such as the enterprise software systems, and aerospace and defense (as examples) -- you can use the above references for this.}
-\textbf{Response:}
-We thank you for the suggestion. We have reviewed the references listed in Comment 19, and expanded Section 6.4 to compare with the success factors reported in these studies, to highlight that many of these factors are already identified by previous studies in specific domains, and to emphasise the unique method angle taken by our study.
-
-\rcomment{12. A literature study on the topic of large scale has some implications for practitioners. What are these? I recommend you add a new section on this.}
-\textbf{Response:}
-We thank you for the suggestion. Similar to our response to Reviewer 2 (Comment 1), we have expanded our discussion with two new sections: one on the implications for current and future research (Section 6.5) and a second on implications for practitioners (Section 6.6).
-%\hl{(We need to discuss if it is fine as what I did, to spread the implication to research and practice discussion throughout Sections 6.1 to 6.4, or to have a complete sub-section on implication to research and another on implication to practice?)}
-
-\rcomment{13. Finally, two questions that you have the information to answer:
-\begin{itemize}
-	\item what countries produced most of the primary studies? Is our knowledge on methods for large-scale skewed? Maybe this is the case, if we find out that most studies come from Scandinavia and America. You have the needed information for answering this, so please add a graphic indicating the countries of the authors of the selected studies. This will add more depth to the discussion. 
-	\item In what business sectors/application domains was the evidence in the primary studies collected? This would shed light to the generalizability of the knowledge we have on your topic. Are most companies in telecom, in high-tech? Or we have also government institutions? This will be very informative and interesting to know.
-\end{itemize}}
-\textbf{Response:}
-We thank you for the suggestion. We have added Figure 3 and 4 to show the information.
+We thank you for the suggestion. We have fixed the issues.
 
 \end{document}
